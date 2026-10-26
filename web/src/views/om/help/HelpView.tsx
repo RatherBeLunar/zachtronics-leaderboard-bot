@@ -128,10 +128,10 @@ export default function HelpView() {
             <HelpCard id="finitearea" title="Finite Area (F)"
                 description={
                     <>
-                        If a solution runs indefinitely and its area remains finite, it can be marked with <F/>. More precisely, F is shorthand for <A/>'@inf=0
+                        If a solution continues to output indefinitely and its area has a finite upper bound, it is marked with <F/>. More precisely, F is shorthand for <A/>'@inf=0
                         <p>
-                            Some solutions will utilize an ever-growing amount of space as they run indefinitely.
-                            Some other solutions can only run in a finite space up until they reach the victory screen (@V).
+                            Some solutions output indefinitely but use an ever-growing amount of area.
+                            Some other solutions will use finite space up until they reach the victory screen (@V), but then stop outputting altogether.
                             These types of solutions are not marked as F.
                         </p>
                     </>
